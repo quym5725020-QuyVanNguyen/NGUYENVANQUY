@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nguyễn Văn Quý - Kỹ sư xây dựng, Chuyên gia quản lý dự án & Giảng viên. 7 năm kinh nghiệm trong lĩnh vực xây dựng, thi công và đào tạo." />
+  <meta name="keywords" content="kỹ sư xây dựng, quản lý dự án, thi công, BIM, Revit, AutoCAD, giảng viên xây dựng, Nguyễn Văn Quý" />
+  <meta name="author" content="Nguyễn Văn Quý" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Nguyễn Văn Quý | Senior Civil Engineer & Project Manager" />
+  <meta property="og:description" content="Portfolio chuyên nghiệp - Kỹ sư xây dựng cao cấp với 7 năm kinh nghiệm" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.pexels.com/photos/8960990/pexels-photo-8960990.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" />
+  <title>Nguyễn Văn Quý | Civil Engineer & Project Manager</title>
+  <!-- Favicon inline SVG -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏗️</text></svg>" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== PRELOADER ===================== -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-icon">
+        <i class="fas fa-hard-hat"></i>
+      </div>
+      <div class="preloader-bar">
+        <div class="preloader-fill"></div>
+      </div>
+      <p class="preloader-text">Đang tải...</p>
+    </div>
+  </div>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header id="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i class="fas fa-drafting-compass"></i></span>
+        <span class="logo-text">NV<span class="accent">Q</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Trang chủ</a></li>
+        <li><a href="#about" class="nav-link">Giới thiệu</a></li>
+        <li><a href="#experience" class="nav-link">Kinh nghiệm</a></li>
+        <li><a href="#skills" class="nav-link">Kỹ năng</a></li>
+        <li><a href="#projects" class="nav-link">Dự án</a></li>
+        <li><a href="#certificates" class="nav-link">Chứng chỉ</a></li>
+        <li><a href="#gallery" class="nav-link">Thư viện</a></li>
+        <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-cta">
+        <i class="fas fa-envelope"></i> Liên hệ ngay
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===================== MOBILE MENU ===================== -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose"><i class="fas fa-times"></i></button>
+    <ul class="mobile-nav-links">
+      <li><a href="#home" class="mobile-link"><i class="fas fa-home"></i> Trang chủ</a></li>
+      <li><a href="#about" class="mobile-link"><i class="fas fa-user"></i> Giới thiệu</a></li>
+      <li><a href="#experience" class="mobile-link"><i class="fas fa-briefcase"></i> Kinh nghiệm</a></li>
+      <li><a href="#skills" class="mobile-link"><i class="fas fa-chart-bar"></i> Kỹ năng</a></li>
+      <li><a href="#projects" class="mobile-link"><i class="fas fa-building"></i> Dự án</a></li>
+      <li><a href="#certificates" class="mobile-link"><i class="fas fa-certificate"></i> Chứng chỉ</a></li>
+      <li><a href="#gallery" class="mobile-link"><i class="fas fa-images"></i> Thư viện</a></li>
+      <li><a href="#contact" class="mobile-link"><i class="fas fa-envelope"></i> Liên hệ</a></li>
+    </ul>
+  </div>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- ===================== HERO SECTION ===================== -->
+  <section id="home" class="hero">
+    <!-- Animated background grid -->
+    <div class="hero-bg-grid"></div>
+    <!-- Floating particles -->
+    <div class="particles" id="particles"></div>
+
+    <div class="container hero-container">
+      <!-- Left: Text Content -->
+      <div class="hero-content" data-aos="fade-right">
+        <div class="hero-badge">
+          <i class="fas fa-hard-hat"></i>
+          <span>Senior Civil Engineer · Project Manager · Lecturer</span>
+        </div>
+        <h1 class="hero-name">
+          NGUYỄN<br />
+          <span class="hero-name-accent">VĂN QUÝ</span>
+        </h1>
+        <div class="hero-typing-wrapper">
+          <span class="typing-prefix">Tôi là </span>
+          <span class="typing-text" id="typingText"></span>
+          <span class="typing-cursor">|</span>
+        </div>
+        <p class="hero-desc">
+          Kỹ sư xây dựng cao cấp với <strong>7 năm kinh nghiệm</strong> trong lĩnh vực 
+          quản lý dự án, thi công và giảng dạy. Chuyên sâu về BIM, 
+          chuyển đổi số xây dựng và quản lý công trình hiện đại.
+        </p>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-target="7">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Năm KN</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Dự án</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Sinh viên</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="12">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Chứng chỉ</span>
+          </div>
+        </div>
+        <div class="hero-buttons">
+          <!-- Replace href with actual CV PDF link -->
+          <a href="#" class="btn btn-primary btn-lg" download>
+            <i class="fas fa-download"></i> Tải CV PDF
+          </a>
+          <a href="#projects" class="btn btn-outline btn-lg">
+            <i class="fas fa-folder-open"></i> Xem dự án
+          </a>
+          <a href="#contact" class="btn btn-ghost btn-lg">
+            <i class="fas fa-phone-alt"></i> Liên hệ
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:nguyenvanquy@email.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <!-- Right: Profile Image -->
+      <div class="hero-image-wrapper" data-aos="fade-left">
+        <div class="hero-image-frame">
+          <div class="hero-image-decoration"></div>
+          <!-- Replace this image with your own profile photo -->
+          <img
+            src="https://images.pexels.com/photos/8960990/pexels-photo-8960990.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=800&w=600"
+            alt="Nguyễn Văn Quý - Kỹ sư xây dựng"
+            class="hero-image"
+            loading="eager"
+          />
+          <!-- Floating badges -->
+          <div class="float-badge float-badge-1">
+            <i class="fas fa-award"></i>
+            <span>PMP Certified</span>
+          </div>
+          <div class="float-badge float-badge-2">
+            <i class="fas fa-cube"></i>
+            <span>BIM Expert</span>
+          </div>
+          <div class="float-badge float-badge-3">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <span>7 Năm GD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <span>Cuộn xuống</span>
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT SECTION ===================== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-user-tie"></i> Về tôi</span>
+        <h2 class="section-title">Giới Thiệu <span class="accent">Chuyên Nghiệp</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Image -->
+        <div class="about-image-wrapper" data-aos="fade-right">
+          <div class="about-image-container">
+            <!-- Replace this image with your own photo -->
+            <img
+              src="https://images.pexels.com/photos/9616959/pexels-photo-9616959.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=700&w=600"
+              alt="Nguyễn Văn Quý làm việc"
+              class="about-image"
+              loading="lazy"
+            />
+            <div class="about-exp-badge">
+              <span class="exp-number">7</span>
+              <span class="exp-text">Năm<br />Kinh Nghiệm</span>
+            </div>
+          </div>
+          <!-- Decorative elements -->
+          <div class="about-deco about-deco-1"></div>
+          <div class="about-deco about-deco-2"></div>
+        </div>
+
+        <!-- Right: Content -->
+        <div class="about-content" data-aos="fade-left">
+          <h3 class="about-subtitle">Kỹ Sư Xây Dựng & Chuyên Gia Quản Lý Dự Án</h3>
+          <p class="about-text">
+            Tôi là <strong>Nguyễn Văn Quý</strong>, kỹ sư xây dựng với hơn <strong>7 năm kinh nghiệm</strong> 
+            thực tế trong lĩnh vực quản lý dự án, thi công công trình và thiết kế kết cấu. Song song đó, 
+            tôi đang giảng dạy tại trường Cao đẳng Nghề với vai trò giảng viên chuyên ngành xây dựng.
+          </p>
+          <p class="about-text">
+            Với nền tảng kỹ thuật vững chắc và kinh nghiệm thực tiễn phong phú, tôi chuyên sâu vào 
+            việc ứng dụng <strong>BIM (Building Information Modeling)</strong>, chuyển đổi số trong 
+            xây dựng, và xây dựng quy trình quản lý công trình hiện đại, hiệu quả.
+          </p>
+
+          <!-- Philosophy -->
+          <div class="philosophy-box">
+            <div class="philosophy-icon"><i class="fas fa-quote-left"></i></div>
+            <p class="philosophy-text">
+              "Xây dựng không chỉ là tạo ra công trình — đó là kiến tạo tương lai, 
+              bảo vệ an toàn cộng đồng và truyền lại tri thức cho thế hệ tiếp theo."
+            </p>
+          </div>
+
+          <!-- Info Grid -->
+          <div class="about-info-grid">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="info-label">Địa điểm</span>
+                <span class="info-value">Việt Nam</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span class="info-label">Học vấn</span>
+                <span class="info-value">Kỹ sư xây dựng</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-language"></i>
+              <div>
+                <span class="info-label">Ngôn ngữ</span>
+                <span class="info-value">Tiếng Việt, Tiếng Anh</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-briefcase"></i>
+              <div>
+                <span class="info-label">Trạng thái</span>
+                <span class="info-value available">Sẵn sàng hợp tác</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn-primary" download>
+            <i class="fas fa-file-pdf"></i> Tải CV đầy đủ
+          </a>
+        </div>
+      </div>
+
+      <!-- Services Cards -->
+      <div class="services-grid" data-aos="fade-up">
+        <div class="service-card">
+          <div class="service-icon" style="background: linear-gradient(135deg,#1a3a6b,#2563eb)">
+            <i class="fas fa-hard-hat"></i>
+          </div>
+          <h4>Quản Lý Dự Án</h4>
+          <p>Lên kế hoạch, giám sát tiến độ, kiểm soát chi phí và chất lượng toàn bộ dự án xây dựng.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon" style="background: linear-gradient(135deg,#7f1d1d,#dc2626)">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h4>Thi Công Công Trình</h4>
+          <p>Điều hành thi công, giải quyết kỹ thuật tại hiện trường, đảm bảo an toàn lao động.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon" style="background: linear-gradient(135deg,#064e3b,#059669)">
+            <i class="fas fa-cube"></i>
+          </div>
+          <h4>BIM & Revit</h4>
+          <p>Ứng dụng BIM trong thiết kế, quản lý thông tin công trình và chuyển đổi số xây dựng.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon" style="background: linear-gradient(135deg,#4c1d95,#7c3aed)">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <h4>Giảng Dạy & Đào Tạo</h4>
+          <p>Giảng dạy kỹ thuật xây dựng, kết cấu công trình và phần mềm chuyên ngành tại trường cao đẳng.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE SECTION ===================== -->
+  <section id="experience" class="section experience-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-briefcase"></i> Kinh nghiệm</span>
+        <h2 class="section-title">Lịch Sử <span class="accent">Nghề Nghiệp</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="timeline-wrapper">
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot">
+            <i class="fas fa-hard-hat"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2018 – Hiện tại</span>
+                <span class="timeline-badge">Full-time</span>
+              </div>
+              <h3 class="timeline-title">Chỉ Huy Trưởng Thi Công</h3>
+              <h4 class="timeline-company"><i class="fas fa-building"></i> Công ty TNHH Xây Dựng ABC Construction</h4>
+            </div>
+            <ul class="timeline-duties">
+              <li>Chỉ huy và điều phối tổng thể thi công các công trình dân dụng và công nghiệp quy mô lớn (từ 50 tỷ đến 200 tỷ VNĐ)</li>
+              <li>Quản lý đội ngũ kỹ thuật 30–50 người, phân công công việc và kiểm soát chất lượng hàng ngày</li>
+              <li>Lập và điều chỉnh tiến độ thi công theo phương pháp CPM/Gantt Chart</li>
+              <li>Kiểm soát dự toán, thanh quyết toán và nghiệm thu công trình với chủ đầu tư</li>
+              <li>Đảm bảo an toàn lao động theo tiêu chuẩn TCVN và ISO 45001</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Quản lý thi công</span><span>Giám sát chất lượng</span>
+              <span>An toàn lao động</span><span>Lập tiến độ</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item timeline-item-right" data-aos="fade-left">
+          <div class="timeline-dot">
+            <i class="fas fa-project-diagram"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2019 – Hiện tại</span>
+                <span class="timeline-badge">Full-time</span>
+              </div>
+              <h3 class="timeline-title">Trưởng Phòng Quản Lý Dự Án</h3>
+              <h4 class="timeline-company"><i class="fas fa-building"></i> Tập đoàn Đầu tư Xây dựng XYZ Group</h4>
+            </div>
+            <ul class="timeline-duties">
+              <li>Quản lý danh mục 5–8 dự án xây dựng đồng thời với tổng giá trị hơn 500 tỷ VNĐ</li>
+              <li>Lập kế hoạch chiến lược, phân bổ nguồn lực và theo dõi KPI dự án</li>
+              <li>Đàm phán hợp đồng với nhà thầu phụ, nhà cung cấp vật liệu và tư vấn giám sát</li>
+              <li>Báo cáo tiến độ, tài chính và rủi ro cho Ban Giám đốc định kỳ hàng tuần</li>
+              <li>Triển khai hệ thống quản lý chất lượng ISO 9001:2015 tại đơn vị</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Project Management</span><span>Risk Management</span>
+              <span>Contract Negotiation</span><span>ISO 9001</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3 -->
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2017 – Hiện tại</span>
+                <span class="timeline-badge timeline-badge-edu">Giảng dạy</span>
+              </div>
+              <h3 class="timeline-title">Giảng Viên Chuyên Ngành Xây Dựng</h3>
+              <h4 class="timeline-company"><i class="fas fa-university"></i> Trường Cao đẳng Nghề Kỹ thuật Xây dựng</h4>
+            </div>
+            <ul class="timeline-duties">
+              <li>Giảng dạy các môn: Kết cấu bê tông cốt thép, Kỹ thuật thi công, Vẽ kỹ thuật xây dựng, AutoCAD, Revit BIM</li>
+              <li>Xây dựng giáo trình, đề thi và tài liệu học tập cho hơn 500 sinh viên mỗi năm</li>
+              <li>Hướng dẫn sinh viên thực tập tại công trường và làm đồ án tốt nghiệp</li>
+              <li>Tham gia hội đồng nghiên cứu khoa học và cải tiến chương trình đào tạo</li>
+              <li>Đánh giá chất lượng đào tạo và cập nhật nội dung theo tiêu chuẩn ngành</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Kết cấu BTCT</span><span>Kỹ thuật thi công</span>
+              <span>AutoCAD</span><span>Revit BIM</span><span>Giáo trình</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 4 -->
+        <div class="timeline-item timeline-item-right" data-aos="fade-left">
+          <div class="timeline-dot">
+            <i class="fas fa-drafting-compass"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2017 – 2020</span>
+                <span class="timeline-badge timeline-badge-design">Thiết kế</span>
+              </div>
+              <h3 class="timeline-title">Kỹ Sư Thiết Kế Kết Cấu</h3>
+              <h4 class="timeline-company"><i class="fas fa-building"></i> Công ty Tư vấn Thiết kế DEF Engineering</h4>
+            </div>
+            <ul class="timeline-duties">
+              <li>Thiết kế kết cấu bê tông cốt thép và kết cấu thép cho công trình nhà ở, thương mại, công nghiệp</li>
+              <li>Phân tích kết cấu bằng phần mềm ETABS, SAP2000, Safe theo TCVN và AISC</li>
+              <li>Lập hồ sơ thiết kế kỹ thuật, bản vẽ thi công và chỉ dẫn kỹ thuật</li>
+              <li>Phối hợp với kiến trúc sư và các bộ môn MEP trong thiết kế tổng thể công trình</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>ETABS</span><span>SAP2000</span>
+              <span>Kết cấu thép</span><span>BTCT</span><span>AutoCAD</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 5 -->
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-dot">
+            <i class="fas fa-cube"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="fas fa-calendar-alt"></i> 2020 – Hiện tại</span>
+                <span class="timeline-badge timeline-badge-bim">BIM</span>
+              </div>
+              <h3 class="timeline-title">BIM Coordinator / BIM Manager</h3>
+              <h4 class="timeline-company"><i class="fas fa-building"></i> Dự án Khu đô thị Smart City</h4>
+            </div>
+            <ul class="timeline-duties">
+              <li>Triển khai và quản lý mô hình BIM cho dự án quy mô lớn theo tiêu chuẩn ISO 19650</li>
+              <li>Phối hợp và tích hợp mô hình giữa các bộ môn: Kiến trúc, Kết cấu, MEP trên nền tảng Revit</li>
+              <li>Clash Detection và giải quyết xung đột thiết kế trên Navisworks</li>
+              <li>Đào tạo đội ngũ kỹ sư sử dụng BIM workflow trong dự án</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Revit</span><span>Navisworks</span>
+              <span>BIM 360</span><span>ISO 19650</span><span>Clash Detection</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS SECTION ===================== -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-cogs"></i> Kỹ năng</span>
+        <h2 class="section-title">Năng Lực <span class="accent">Chuyên Môn</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="skills-wrapper">
+        <!-- Technical Skills -->
+        <div class="skills-column" data-aos="fade-right">
+          <h3 class="skills-col-title"><i class="fas fa-laptop-code"></i> Phần Mềm Chuyên Nghiệp</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-vector-square"></i> AutoCAD</span>
+              <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="95" style="background: linear-gradient(90deg,#2563eb,#60a5fa)"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-cube"></i> Revit / BIM</span>
+              <span class="skill-percent">88%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="88" style="background: linear-gradient(90deg,#7c3aed,#a78bfa)"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-calculator"></i> ETABS</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85" style="background: linear-gradient(90deg,#059669,#34d399)"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-calculator"></i> SAP2000</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80" style="background: linear-gradient(90deg,#d97706,#fbbf24)"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-film"></i> Navisworks</span>
+              <span class="skill-percent">82%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="82" style="background: linear-gradient(90deg,#dc2626,#f87171)"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-file-excel"></i> MS Project / Primavera</span>
+              <span class="skill-percent">87%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="87" style="background: linear-gradient(90deg,#0891b2,#22d3ee)"></div></div>
+          </div>
+        </div>
+
+        <!-- Professional Skills -->
+        <div class="skills-column" data-aos="fade-left">
+          <h3 class="skills-col-title"><i class="fas fa-user-cog"></i> Năng Lực Nghề Nghiệp</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-tasks"></i> Quản lý dự án</span>
+              <span class="skill-percent">95%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="95" style="background: linear-gradient(90deg,#1a3a6b,#2563eb)"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-hard-hat"></i> Thi công công trình</span>
+              <span class="skill-percent">93%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="93" style="background: linear-gradient(90deg,#7f1d1d,#dc2626)"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-eye"></i> Giám sát công trình</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90" style="background: linear-gradient(90deg,#065f46,#059669)"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-file-invoice-dollar"></i> Dự toán công trình</span>
+              <span class="skill-percent">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85" style="background: linear-gradient(90deg,#92400e,#f59e0b)"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-chalkboard-teacher"></i> Kỹ năng giảng dạy</span>
+              <span class="skill-percent">92%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="92" style="background: linear-gradient(90deg,#4c1d95,#7c3aed)"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-users"></i> Lãnh đạo nhóm</span>
+              <span class="skill-percent">88%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="88" style="background: linear-gradient(90deg,#0e7490,#06b6d4)"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill Tags -->
+      <div class="skill-tags-wrapper" data-aos="fade-up">
+        <h3 class="tags-title">Công Nghệ & Công Cụ</h3>
+        <div class="skill-tags">
+          <span class="skill-tag"><i class="fas fa-cube"></i> BIM</span>
+          <span class="skill-tag"><i class="fas fa-drafting-compass"></i> AutoCAD</span>
+          <span class="skill-tag"><i class="fas fa-building"></i> Revit</span>
+          <span class="skill-tag"><i class="fas fa-calculator"></i> ETABS</span>
+          <span class="skill-tag"><i class="fas fa-calculator"></i> SAP2000</span>
+          <span class="skill-tag"><i class="fas fa-eye"></i> Navisworks</span>
+          <span class="skill-tag"><i class="fas fa-chart-gantt"></i> MS Project</span>
+          <span class="skill-tag"><i class="fas fa-chart-gantt"></i> Primavera P6</span>
+          <span class="skill-tag"><i class="fas fa-shield-alt"></i> ISO 9001</span>
+          <span class="skill-tag"><i class="fas fa-hard-hat"></i> ISO 45001</span>
+          <span class="skill-tag"><i class="fas fa-file-contract"></i> FIDIC Contract</span>
+          <span class="skill-tag"><i class="fas fa-balance-scale"></i> TCVN</span>
+          <span class="skill-tag"><i class="fas fa-network-wired"></i> CPM / PERT</span>
+          <span class="skill-tag"><i class="fas fa-file-invoice"></i> Dự toán</span>
+          <span class="skill-tag"><i class="fas fa-search"></i> QA/QC</span>
+          <span class="skill-tag"><i class="fas fa-chart-line"></i> Earned Value</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION SECTION ===================== -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-graduation-cap"></i> Học vấn</span>
+        <h2 class="section-title">Học Vấn & <span class="accent">Đào Tạo</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="edu-grid">
+        <!-- University -->
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="edu-icon" style="background: linear-gradient(135deg,#1a3a6b,#2563eb)">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="edu-content">
+            <span class="edu-year">2013 – 2018</span>
+            <h3 class="edu-degree">Kỹ Sư Xây Dựng</h3>
+            <h4 class="edu-school">Đại học Xây dựng Hà Nội (NUCE)</h4>
+            <p class="edu-major">Chuyên ngành: Kỹ thuật Công trình Dân dụng & Công nghiệp</p>
+            <div class="edu-highlight">
+              <span><i class="fas fa-star"></i> GPA: 3.4/4.0 (Loại Giỏi)</span>
+              <span><i class="fas fa-trophy"></i> Học bổng xuất sắc 3 năm liên tiếp</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Master / Advanced -->
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="edu-icon" style="background: linear-gradient(135deg,#7f1d1d,#dc2626)">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="edu-content">
+            <span class="edu-year">2020 – 2022</span>
+            <h3 class="edu-degree">Chương Trình Thạc Sĩ Quản Lý Xây Dựng</h3>
+            <h4 class="edu-school">Đại học Kiến trúc Hà Nội (HAU)</h4>
+            <p class="edu-major">Chuyên ngành: Quản lý Dự án Xây dựng & Bất động sản</p>
+            <div class="edu-highlight">
+              <span><i class="fas fa-star"></i> Luận văn xuất sắc loại A</span>
+              <span><i class="fas fa-book"></i> Nghiên cứu: Ứng dụng BIM trong quản lý dự án</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Training -->
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="edu-icon" style="background: linear-gradient(135deg,#064e3b,#059669)">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="edu-content">
+            <span class="edu-year">2019 – 2020</span>
+            <h3 class="edu-degree">PMP – Project Management Professional</h3>
+            <h4 class="edu-school">Project Management Institute (PMI)</h4>
+            <p class="edu-major">Chứng chỉ quản lý dự án quốc tế theo chuẩn PMBOK 6th Edition</p>
+            <div class="edu-highlight">
+              <span><i class="fas fa-check-circle"></i> Đạt Above Target tất cả domain</span>
+              <span><i class="fas fa-globe"></i> Chứng chỉ quốc tế được công nhận toàn cầu</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BIM Training -->
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="edu-icon" style="background: linear-gradient(135deg,#4c1d95,#7c3aed)">
+            <i class="fas fa-cube"></i>
+          </div>
+          <div class="edu-content">
+            <span class="edu-year">2021 – 2022</span>
+            <h3 class="edu-degree">Autodesk Certified Professional – Revit</h3>
+            <h4 class="edu-school">Autodesk Certification Program</h4>
+            <p class="edu-major">BIM Coordinator & BIM Manager theo tiêu chuẩn ISO 19650</p>
+            <div class="edu-highlight">
+              <span><i class="fas fa-cube"></i> Revit Architecture + Structure + MEP</span>
+              <span><i class="fas fa-network-wired"></i> Navisworks Manage Certified</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS SECTION ===================== -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-building"></i> Dự án</span>
+        <h2 class="section-title">Dự Án <span class="accent">Tiêu Biểu</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="project-filters" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">Tất cả</button>
+        <button class="filter-btn" data-filter="residential">Nhà ở</button>
+        <button class="filter-btn" data-filter="commercial">Thương mại</button>
+        <button class="filter-btn" data-filter="infrastructure">Hạ tầng</button>
+        <button class="filter-btn" data-filter="industrial">Công nghiệp</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card" data-category="residential" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image-wrap">
+            <!-- Replace this image with your own project photo -->
+            <!-- images/project-1.jpg -->
+            <img
+              src="https://images.pexels.com/photos/35132517/pexels-photo-35132517.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+              alt="Khu căn hộ The Green Tower"
+              class="project-img"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <div class="project-overlay-content">
+                <a href="#" class="project-view-btn"><i class="fas fa-expand-alt"></i></a>
+                <a href="#" class="project-link-btn"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <span class="project-category-badge">Nhà ở</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-role"><i class="fas fa-user-hard-hat"></i> Chỉ huy thi công</span>
+              <span class="project-year"><i class="fas fa-calendar"></i> 2021–2023</span>
+            </div>
+            <h3 class="project-title">Khu Căn Hộ The Green Tower</h3>
+            <p class="project-desc">Tòa nhà căn hộ cao cấp 25 tầng tại trung tâm thành phố. Quy mô 350 căn hộ, hệ thống kết cấu bê tông cốt thép toàn khối.</p>
+            <div class="project-specs">
+              <span><i class="fas fa-ruler-combined"></i> 45,000 m²</span>
+              <span><i class="fas fa-money-bill"></i> 180 tỷ VNĐ</span>
+              <span><i class="fas fa-building"></i> 25 tầng</span>
+            </div>
+            <div class="project-tags">
+              <span>BTCT</span><span>Quản lý thi công</span><span>QA/QC</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-category="commercial" data-aos="fade-up" data-aos-delay="150">
+          <div class="project-image-wrap">
+            <!-- Replace this image with your own project photo -->
+            <!-- images/project-2.jpg -->
+            <img
+              src="https://images.pexels.com/photos/37687676/pexels-photo-37687676.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+              alt="Trung tâm thương mại Pearl Plaza"
+              class="project-img"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <div class="project-overlay-content">
+                <a href="#" class="project-view-btn"><i class="fas fa-expand-alt"></i></a>
+                <a href="#" class="project-link-btn"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <span class="project-category-badge" style="background:#dc2626">Thương mại</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-role"><i class="fas fa-briefcase"></i> Trưởng phòng QLDA</span>
+              <span class="project-year"><i class="fas fa-calendar"></i> 2020–2022</span>
+            </div>
+            <h3 class="project-title">Trung Tâm Thương Mại Pearl Plaza</h3>
+            <p class="project-desc">Trung tâm thương mại hạng A với hệ thống kết cấu thép phức hợp, tích hợp BIM toàn bộ từ thiết kế đến thi công.</p>
+            <div class="project-specs">
+              <span><i class="fas fa-ruler-combined"></i> 60,000 m²</span>
+              <span><i class="fas fa-money-bill"></i> 250 tỷ VNĐ</span>
+              <span><i class="fas fa-building"></i> 8 tầng + 3 hầm</span>
+            </div>
+            <div class="project-tags">
+              <span>BIM</span><span>Kết cấu thép</span><span>QLDA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-category="infrastructure" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image-wrap">
+            <!-- Replace this image with your own project photo -->
+            <!-- images/project-3.jpg -->
+            <img
+              src="https://images.pexels.com/photos/33311807/pexels-photo-33311807.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+              alt="Cầu vượt đường vành đai"
+              class="project-img"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <div class="project-overlay-content">
+                <a href="#" class="project-view-btn"><i class="fas fa-expand-alt"></i></a>
+                <a href="#" class="project-link-btn"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <span class="project-category-badge" style="background:#059669">Hạ tầng</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-role"><i class="fas fa-road"></i> Kỹ sư giám sát</span>
+              <span class="project-year"><i class="fas fa-calendar"></i> 2019–2021</span>
+            </div>
+            <h3 class="project-title">Cầu Vượt Vành Đai 3 – Nút Giao Quốc lộ 1A</h3>
+            <p class="project-desc">Công trình cầu vượt 4 làn xe, dài 1,2km, kết cấu dầm hộp BTCT dự ứng lực, thi công phương pháp đúc đẩy.</p>
+            <div class="project-specs">
+              <span><i class="fas fa-ruler-combined"></i> 1,200 m</span>
+              <span><i class="fas fa-money-bill"></i> 120 tỷ VNĐ</span>
+              <span><i class="fas fa-car"></i> 4 làn xe</span>
+            </div>
+            <div class="project-tags">
+              <span>Cầu đường</span><span>Dự ứng lực</span><span>Giám sát</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card" data-category="industrial" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image-wrap">
+            <!-- Replace this image with your own project photo -->
+            <!-- images/project-4.jpg -->
+            <img
+              src="https://images.pexels.com/photos/12843084/pexels-photo-12843084.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+              alt="Nhà máy sản xuất công nghiệp"
+              class="project-img"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <div class="project-overlay-content">
+                <a href="#" class="project-view-btn"><i class="fas fa-expand-alt"></i></a>
+                <a href="#" class="project-link-btn"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <span class="project-category-badge" style="background:#d97706">Công nghiệp</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-role"><i class="fas fa-industry"></i> Chỉ huy thi công</span>
+              <span class="project-year"><i class="fas fa-calendar"></i> 2022–2024</span>
+            </div>
+            <h3 class="project-title">Nhà Máy Sản Xuất GreenTech Industry</h3>
+            <p class="project-desc">Tổ hợp nhà máy sản xuất công nghệ cao tại KCN Thăng Long. Kết cấu thép tiền chế, hệ thống mái nhẹ và tường cladding hiện đại.</p>
+            <div class="project-specs">
+              <span><i class="fas fa-ruler-combined"></i> 80,000 m²</span>
+              <span><i class="fas fa-money-bill"></i> 200 tỷ VNĐ</span>
+              <span><i class="fas fa-warehouse"></i> 3 nhà xưởng</span>
+            </div>
+            <div class="project-tags">
+              <span>Kết cấu thép</span><span>Tiền chế</span><span>KCN</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card" data-category="residential" data-aos="fade-up" data-aos-delay="150">
+          <div class="project-image-wrap">
+            <!-- Replace this image with your own project photo -->
+            <!-- images/project-5.jpg -->
+            <img
+              src="https://images.pexels.com/photos/18082446/pexels-photo-18082446.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+              alt="Khu nhà ở xã hội"
+              class="project-img"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <div class="project-overlay-content">
+                <a href="#" class="project-view-btn"><i class="fas fa-expand-alt"></i></a>
+                <a href="#" class="project-link-btn"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <span class="project-category-badge">Nhà ở</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-role"><i class="fas fa-drafting-compass"></i> Thiết kế kết cấu</span>
+              <span class="project-year"><i class="fas fa-calendar"></i> 2018–2020</span>
+            </div>
+            <h3 class="project-title">Khu Nhà Ở Xã Hội Hòa Bình Residence</h3>
+            <p class="project-desc">Khu nhà ở xã hội 5 block, 15 tầng, 800 căn hộ cho người thu nhập thấp. Thiết kế kết cấu tối ưu để giảm chi phí xây dựng.</p>
+            <div class="project-specs">
+              <span><i class="fas fa-ruler-combined"></i> 72,000 m²</span>
+              <span><i class="fas fa-money-bill"></i> 350 tỷ VNĐ</span>
+              <span><i class="fas fa-home"></i> 800 căn hộ</span>
+            </div>
+            <div class="project-tags">
+              <span>ETABS</span><span>Thiết kế KK</span><span>BTCT</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card" data-category="commercial" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image-wrap">
+            <!-- Replace this image with your own project photo -->
+            <!-- images/project-6.jpg -->
+            <img
+              src="https://images.pexels.com/photos/32598872/pexels-photo-32598872.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+              alt="Dự án BIM Smart City"
+              class="project-img"
+              loading="lazy"
+            />
+            <div class="project-overlay">
+              <div class="project-overlay-content">
+                <a href="#" class="project-view-btn"><i class="fas fa-expand-alt"></i></a>
+                <a href="#" class="project-link-btn"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <span class="project-category-badge" style="background:#7c3aed">BIM</span>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-role"><i class="fas fa-cube"></i> BIM Manager</span>
+              <span class="project-year"><i class="fas fa-calendar"></i> 2022–2024</span>
+            </div>
+            <h3 class="project-title">Smart City Urban Development – BIM Implementation</h3>
+            <p class="project-desc">Triển khai BIM toàn diện cho dự án khu đô thị thông minh. Quản lý mô hình 3D tích hợp, clash detection và 4D scheduling.</p>
+            <div class="project-specs">
+              <span><i class="fas fa-ruler-combined"></i> 500 ha</span>
+              <span><i class="fas fa-money-bill"></i> 2,000 tỷ VNĐ</span>
+              <span><i class="fas fa-cube"></i> BIM Level 2</span>
+            </div>
+            <div class="project-tags">
+              <span>Revit</span><span>Navisworks</span><span>BIM 360</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATES SECTION ===================== -->
+  <section id="certificates" class="section certificates-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-certificate"></i> Chứng chỉ</span>
+        <h2 class="section-title">Chứng Chỉ <span class="accent">Chuyên Môn</span></h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="certs-grid">
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="cert-ribbon"></div>
+          <div class="cert-icon"><i class="fas fa-hard-hat"></i></div>
+          <div class="cert-body">
+            <h4 class="cert-title">Chứng chỉ Hành nghề Xây dựng</h4>
+            <p class="cert-issuer">Bộ Xây dựng Việt Nam</p>
+            <p class="cert-year">Cấp năm: 2019</p>
+            <span class="cert-status valid"><i class="fas fa-check-circle"></i> Còn hiệu lực</span>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="150">
+          <div class="cert-ribbon" style="background:#dc2626"></div>
+          <div class="cert-icon" style="color:#dc2626"><i class="fas fa-project-diagram"></i></div>
+          <div class="cert-body">
+            <h4 class="cert-title">PMP – Project Management Professional</h4>
+            <p class="cert-issuer">PMI – Project Management Institute</p>
+            <p class="cert-year">Cấp năm: 2020</p>
+            <span class="cert-status valid"><i class="fas fa-check-circle"></i> Còn hiệu lực</span>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="cert-ribbon" style="background:#7c3aed"></div>
+          <div class="cert-icon" style="color:#7c3aed"><i class="fas fa-cube"></i></div>
+          <div class="cert-body">
+            <h4 class="cert-title">Autodesk Certified Professional – Revit</h4>
+            <p class="cert-issuer">Autodesk Inc.</p>
+            <p class="cert-year">Cấp năm: 2021</p>
+            <span class="cert-status valid"><i class="fas fa-check-circle"></i> Còn hiệu lực</span>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="250">
+          <div class="cert-ribbon" style="background:#059669"></div>
+          <div class="cert-icon" style="color:#059669"><i class="fas fa-shield-alt"></i></div>
+          <div class="cert-body">
+            <h4 class="cert-title">Chứng chỉ An toàn Lao động Xây dựng</h4>
+            <p class="cert-issuer">Bộ Lao động – Thương binh và Xã hội</p>
+            <p class="cert-year">Cấp năm: 2018</p>
+            <span class="cert-status valid"><i class="fas fa-check-circle"></i> Còn hiệu lực</span>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="cert-ribbon" style="background:#d97706"></div>
+          <div class="cert-icon" style="color:#d97706"><i class="fas fa-network-wired"></i></div>
+          <div class="cert-body">
+            <h4 class="cert-title">BIM Manager – ISO 19650 Compliance</h4>
+            <p class="cert-issuer">Building Smart International</p>
+            <p class="cert-year">Cấp năm: 2022</p>
+            <span class="cert-status valid"><i class="fas fa-check-circle"></i> Còn hiệu lực</span>
+          </div>
+        </div>
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="350">
+          <div class="cert-ribbon" style="background:#0891b2"></div>
+          <div class="cert-icon" style="color:#0891b2"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="cert-body">
+            <h4 class="cert-title">Chứng chỉ Nghiệp vụ Sư phạm Dạy nghề</h4>
+            <p class="cert-issuer">Tổng cục Giáo dục Nghề nghiệp</p>
+            <p class="cert-year">Cấp năm: 2017</p>
+            <span class="cert-status valid"><i class="fas fa-check-circle"></i> Còn hiệu lực</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALLERY SECTION ===================== -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-images"></i> Thư viện</span>
+        <h2 class="section-title">Thư Viện <span class="accent">Công Trình</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-sub">Hình ảnh thực tế từ các công trình đã thực hiện</p>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Gallery Item 1 -->
+        <!-- Replace this image with your own construction site photo -->
+        <!-- images/gallery-1.jpg -->
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="50">
+          <img
+            src="https://images.pexels.com/photos/35132517/pexels-photo-35132517.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+            alt="Công trình căn hộ cao tầng"
+            class="gallery-img"
+            data-full="https://images.pexels.com/photos/35132517/pexels-photo-35132517.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            data-caption="Khu căn hộ cao tầng – Giai đoạn thi công thô"
+            loading="lazy"
+          />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <p>Căn hộ cao tầng</p>
+          </div>
+        </div>
+        <!-- Gallery Item 2 -->
+        <!-- images/gallery-2.jpg -->
+        <div class="gallery-item gallery-wide" data-aos="zoom-in" data-aos-delay="100">
+          <img
+            src="https://images.pexels.com/photos/37687676/pexels-photo-37687676.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=800"
+            alt="Kết cấu thép công nghiệp"
+            class="gallery-img"
+            data-full="https://images.pexels.com/photos/37687676/pexels-photo-37687676.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            data-caption="Hệ thống kết cấu thép – Nhà xưởng công nghiệp"
+            loading="lazy"
+          />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <p>Kết cấu thép</p>
+          </div>
+        </div>
+        <!-- Gallery Item 3 -->
+        <!-- images/gallery-3.jpg -->
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+          <img
+            src="https://images.pexels.com/photos/9616959/pexels-photo-9616959.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+            alt="Bản vẽ kỹ thuật"
+            class="gallery-img"
+            data-full="https://images.pexels.com/photos/9616959/pexels-photo-9616959.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            data-caption="Thiết kế kỹ thuật – Bản vẽ kết cấu chi tiết"
+            loading="lazy"
+          />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <p>Thiết kế kỹ thuật</p>
+          </div>
+        </div>
+        <!-- Gallery Item 4 -->
+        <!-- images/gallery-4.jpg -->
+        <div class="gallery-item gallery-tall" data-aos="zoom-in" data-aos-delay="200">
+          <img
+            src="https://images.pexels.com/photos/35155685/pexels-photo-35155685.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=600&w=400"
+            alt="Công tác giàn giáo"
+            class="gallery-img"
+            data-full="https://images.pexels.com/photos/35155685/pexels-photo-35155685.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            data-caption="Hệ thống giàn giáo thép – Thi công tầng cao"
+            loading="lazy"
+          />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <p>Giàn giáo thép</p>
+          </div>
+        </div>
+        <!-- Gallery Item 5 -->
+        <!-- images/gallery-5.jpg -->
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250">
+          <img
+            src="https://images.pexels.com/photos/4458205/pexels-photo-4458205.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+            alt="Bản vẽ mặt bằng"
+            class="gallery-img"
+            data-full="https://images.pexels.com/photos/4458205/pexels-photo-4458205.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            data-caption="Bản vẽ mặt bằng – Thiết kế kiến trúc tầng điển hình"
+            loading="lazy"
+          />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <p>Bản vẽ mặt bằng</p>
+          </div>
+        </div>
+        <!-- Gallery Item 6 -->
+        <!-- images/gallery-6.jpg -->
+        <div class="gallery-item gallery-wide" data-aos="zoom-in" data-aos-delay="300">
+          <img
+            src="https://images.pexels.com/photos/33311807/pexels-photo-33311807.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=800"
+            alt="Cầu đường cao tốc"
+            class="gallery-img"
+            data-full="https://images.pexels.com/photos/33311807/pexels-photo-33311807.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            data-caption="Dự án đường cao tốc – Nhìn từ trên cao"
+            loading="lazy"
+          />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <p>Đường cao tốc</p>
+          </div>
+        </div>
+        <!-- Gallery Item 7 -->
+        <!-- images/gallery-7.jpg -->
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+          <img
+            src="https://images.pexels.com/photos/8482551/pexels-photo-8482551.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+            alt="Giám sát công trình"
+            class="gallery-img"
+            data-full="https://images.pexels.com/photos/8482551/pexels-photo-8482551.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            data-caption="Giám sát thi công – Kiểm tra bản vẽ tại hiện trường"
+            loading="lazy"
+          />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <p>Giám sát hiện trường</p>
+          </div>
+        </div>
+        <!-- Gallery Item 8 -->
+        <!-- images/gallery-8.jpg -->
+        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+          <img
+            src="https://images.pexels.com/photos/32569757/pexels-photo-32569757.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=400&w=600"
+            alt="Cầu dây văng"
+            class="gallery-img"
+            data-full="https://images.pexels.com/photos/32569757/pexels-photo-32569757.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            data-caption="Cầu bắc qua sông – Công trình hạ tầng trọng điểm"
+            loading="lazy"
+          />
+          <div class="gallery-hover">
+            <i class="fas fa-search-plus"></i>
+            <p>Cầu hạ tầng</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-overlay" id="lightboxOverlay"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+      <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+      <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" id="lightboxImg" class="lightbox-img" />
+      </div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+      <div class="lightbox-counter" id="lightboxCounter"></div>
+    </div>
+  </div>
+
+  <!-- ===================== CONTACT SECTION ===================== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag"><i class="fas fa-envelope"></i> Liên hệ</span>
+        <h2 class="section-title">Liên Hệ <span class="accent">Với Tôi</span></h2>
+        <div class="section-divider"></div>
+        <p class="section-sub">Hãy kết nối để thảo luận về dự án hoặc cơ hội hợp tác</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- Contact Info -->
+        <div class="contact-info" data-aos="fade-right">
+          <h3 class="contact-info-title">Thông Tin Liên Lạc</h3>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon" style="background: linear-gradient(135deg,#1a3a6b,#2563eb)">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">Điện thoại</span>
+                <!-- Replace with your actual phone number -->
+                <a href="tel:+84901234567" class="contact-value">+84 901 234 567</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" style="background: linear-gradient(135deg,#7f1d1d,#dc2626)">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">Email</span>
+                <!-- Replace with your actual email -->
+                <a href="mailto:nguyenvanquy@email.com" class="contact-value">nguyenvanquy@email.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" style="background: linear-gradient(135deg,#0047ab,#0e76a8)">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">LinkedIn</span>
+                <!-- Replace with your actual LinkedIn -->
+                <a href="https://linkedin.com/in/nguyenvanquy" target="_blank" class="contact-value">linkedin.com/in/nguyenvanquy</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" style="background: linear-gradient(135deg,#1877f2,#3b82f6)">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">Facebook</span>
+                <!-- Replace with your actual Facebook -->
+                <a href="https://facebook.com/nguyenvanquy" target="_blank" class="contact-value">fb.com/nguyenvanquy</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" style="background: linear-gradient(135deg,#24292e,#444)">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">GitHub</span>
+                <!-- Replace with your actual GitHub -->
+                <a href="https://github.com/nguyenvanquy" target="_blank" class="contact-value">github.com/nguyenvanquy</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon" style="background: linear-gradient(135deg,#064e3b,#059669)">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">Địa chỉ</span>
+                <!-- Replace with your actual address -->
+                <span class="contact-value">Hà Nội, Việt Nam</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Buttons -->
+          <div class="contact-socials">
+            <a href="#" class="contact-social-btn linkedin" title="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="contact-social-btn facebook" title="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="contact-social-btn github" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:nguyenvanquy@email.com" class="contact-social-btn email" title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper" data-aos="fade-left">
+          <form class="contact-form" id="contactForm">
+            <h3 class="form-title">Gửi Tin Nhắn</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name"><i class="fas fa-user"></i> Họ và tên *</label>
+                <input type="text" id="name" name="name" placeholder="Nguyễn Văn A" required />
+              </div>
+              <div class="form-group">
+                <label for="email"><i class="fas fa-envelope"></i> Email *</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject"><i class="fas fa-tag"></i> Chủ đề *</label>
+              <select id="subject" name="subject" required>
+                <option value="">-- Chọn chủ đề --</option>
+                <option value="project">Hợp tác dự án xây dựng</option>
+                <option value="consulting">Tư vấn kỹ thuật</option>
+                <option value="bim">BIM & Chuyển đổi số</option>
+                <option value="teaching">Đào tạo & Giảng dạy</option>
+                <option value="other">Khác</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message"><i class="fas fa-comment-alt"></i> Nội dung *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Nhập nội dung tin nhắn của bạn..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <i class="fas fa-paper-plane"></i> Gửi Tin Nhắn
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-check-circle"></i>
+              <p>Cảm ơn! Tin nhắn của bạn đã được gửi thành công. Tôi sẽ phản hồi trong vòng 24 giờ.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map placeholder -->
+      <div class="map-wrapper" data-aos="fade-up">
+        <div class="map-placeholder">
+          <i class="fas fa-map-marked-alt"></i>
+          <h4>Hà Nội, Việt Nam</h4>
+          <p>Sẵn sàng làm việc trên toàn quốc và hợp tác quốc tế</p>
+          <!-- Replace with your Google Maps embed -->
+          <!-- <iframe src="YOUR_GOOGLE_MAPS_EMBED_URL" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container footer-top-inner">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo">
+            <i class="fas fa-drafting-compass"></i>
+            <span>NV<span style="color:#f87171">Q</span></span>
+          </a>
+          <p class="footer-tagline">Xây dựng tương lai — Từng công trình một.</p>
+          <div class="footer-socials">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:nguyenvanquy@email.com" title="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="footer-links-group">
+          <h4>Điều hướng</h4>
+          <ul>
+            <li><a href="#home"><i class="fas fa-chevron-right"></i> Trang chủ</a></li>
+            <li><a href="#about"><i class="fas fa-chevron-right"></i> Giới thiệu</a></li>
+            <li><a href="#experience"><i class="fas fa-chevron-right"></i> Kinh nghiệm</a></li>
+            <li><a href="#skills"><i class="fas fa-chevron-right"></i> Kỹ năng</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Nội dung</h4>
+          <ul>
+            <li><a href="#projects"><i class="fas fa-chevron-right"></i> Dự án</a></li>
+            <li><a href="#certificates"><i class="fas fa-chevron-right"></i> Chứng chỉ</a></li>
+            <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Thư viện</a></li>
+            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Liên hệ nhanh</h4>
+          <ul>
+            <li><a href="tel:+84901234567"><i class="fas fa-phone"></i> +84 901 234 567</a></li>
+            <li><a href="mailto:nguyenvanquy@email.com"><i class="fas fa-envelope"></i> nguyenvanquy@email.com</a></li>
+            <li><span><i class="fas fa-map-marker-alt"></i> Hà Nội, Việt Nam</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2025 <strong>Nguyễn Văn Quý</strong> — Senior Civil Engineer & Project Manager. All rights reserved.</p>
+        <p class="footer-made">Thiết kế với <i class="fas fa-heart" style="color:#f87171"></i> bởi NVQ Portfolio Team</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
